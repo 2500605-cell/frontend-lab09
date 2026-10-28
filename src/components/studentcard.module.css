@@ -1,0 +1,26 @@
+.card {
+  background: white;
+  border: 1px solid #d3dce6;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+ 
+.name {
+  margin: 0 0 4px 0;
+  color: #0f8f83;
+}
+.program {
+  margin: 0 0 8px 0;
+  font-weight: bold;
+}
+ 
+.email {
+  color: #5b6b7c;
+  font-size: 0.9rem;
+}
+ 
+.missing {
+  color: #c0392b;
+  font-style: italic;
+}

@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Calibri, Arial, sans-serif;
+  background: #f3f6fa;
+  color: #1b2b3a;
+}
+ 
+.header {
+  background: #0f8f83;
+  color: white;
+  padding: 24px;
+  text-align: center;
+}
+ 
+.header h1 {
+  margin: 0;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+ 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+ 
+.footer {
+  text-align: center;
+  color: #5b6b7c;
+}
